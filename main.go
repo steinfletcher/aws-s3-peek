@@ -12,9 +12,9 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "piano-secrets"
+	app.Name = "aws-s3-peek"
 	app.Version = "0.1"
-	app.Usage = "Encrypt and decrypt secrets"
+	app.Usage = "Preview s3 objects"
 	app.Flags = flags()
 
 	app.Action = func(c *cli.Context) error {
