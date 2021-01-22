@@ -4,7 +4,7 @@ Preview large s3 objects before downloading them.
 
 ## Install
 
-    go install github.com/steinfletcher/aws-s3-peek
+    go get github.com/steinfletcher/aws-s3-peek
     
 ## Use
 
